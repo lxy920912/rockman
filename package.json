@@ -1,0 +1,26 @@
+{
+    "name": "rockman",
+    "version": "1.0.0",
+    "description": "��#\u0000 \u0000r\u0000o\u0000c\u0000k\u0000m\u0000a\u0000n\u0000\r\u0000 \u0000",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node ./server/server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lxy920912/rockman.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/lxy920912/rockman/issues"
+    },
+    "homepage": "https://github.com/lxy920912/rockman#readme",
+    "devDependencies": {
+        "fs": "^0.0.1-security",
+        "http": "0.0.0",
+        "path": "^0.12.7",
+        "url": "^0.11.0"
+    }
+}

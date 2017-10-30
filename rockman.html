@@ -1,0 +1,45 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 指定网页的兼容模式设置，IE8/9 以及以后版本都会以最高版本IE来渲染页面-->
+    <title>Rock Man</title>
+    <link rel="stylesheet" href="css/rockman_lxy.css" />
+</head>
+
+<body>
+    <div id="container">
+        <div id="storyArea">
+            <img id="storyImg" src="img/story00.png">
+            <div id="nextBtn"> 下一页</div>
+        </div>
+        <div id="gameArea">
+            <div class="message" id="message0"> PUSH "H" or "ENTER" START</div>
+            <div class="message" id="message1">GAME OVER,PLEASE PUSH "H" or "ENTER" RESTART</div>
+            <div id="restartBtn">RESTART</div>
+            <div id="mcLifeBar" class="lifeBar">
+                <div id="mcFilter" class="filter"></div>
+            </div>
+            <div id="enemyLifeBar" class="lifeBar">
+                <div id="enemyFilter" class="filter"></div>
+            </div>
+            <div id="mc">
+                <div id="mcImg" class="PlayerFall"></div>
+            </div>
+            <div id="ground">
+            </div>
+        </div>
+        <div class="controllerInfo">
+            <p id="controllerInfoShower">
+                向左移动：“D键”，向右移动：“A键”，攻击:"J键"，跳跃：“K键”
+            </p>
+        </div>
+    </div>
+    <script src="./js/preload_lxy.js"></script>
+    <script src="./js/rockman_lxy.js"></script>
+    <!-- file:///F:/front/rockMan/rockman.html -->
+</body>
+
+</html>
